@@ -1,6 +1,6 @@
 # Real-Time-Bus-Tracker
 ## Exercise on asynchronus code
-<img src= "boston.png" width='300'/>
+<img src= "Boston.png" width='300'/>
 
 **What I Learned**
 -How to apply API in code to get real time results.
