@@ -3,6 +3,7 @@
 <img src= "Boston.png" width='300'/>
 
 **What I Learned**
+
 -How to apply API in code to get real time results.
 
 -Fetch JSON data using asychronus JavaScript.
