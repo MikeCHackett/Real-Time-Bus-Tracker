@@ -1,6 +1,6 @@
 # Real-Time-Bus-Tracker
 ## Exercise on asynchronus code
-<img src= "
+<img src= "boston.png" width='300'/>
 
 **What I Learned**
 -How to apply API in code to get real time results.
@@ -8,8 +8,7 @@
 
 
 ## Description
--Real time map that tracks bus routes.
--
+-Real time map that tracks bus routes using asynchronus code.
 
 
 
