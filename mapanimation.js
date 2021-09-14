@@ -79,9 +79,9 @@ var map;
 	function getIcon(bus) {
 		// select icon based on bus direction
 		if (bus.attributes.direction_id === 0) {
-			return 'red.png';
+			return 'orangebus.png';
 		}
-		return 'blue.png';
+		return 'otherbus.png';
 	}
 
 	function moveMarker(marker, bus) {
