@@ -1,6 +1,6 @@
 # Real-Time-Bus-Tracker
 ## Exercise on asynchronus code
-<img src= "Boston.png" width='300'/>
+
 
 **What I Learned**
 
