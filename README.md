@@ -10,7 +10,9 @@
 
 
 ## Description
--Real time map that tracks bus routes using asynchronus code.
+-Real time map that tracks bus routes in boston.
+-Marks differnet bus routes with icons.
+-JSON data is fetched with Asynchronous JavaScript using promises and is updated every 15 seconds.
 
 
 
