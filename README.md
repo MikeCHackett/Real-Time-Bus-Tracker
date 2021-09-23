@@ -17,11 +17,16 @@
 
 
 
-## Built with
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/Javascript)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+## How To Run
 
+Clone this project:
+$ git clone https://github.com/MikeCHackett/Real-Time-Bus-Tracker
+
+Access:
+$ cd Bus-tracker
+
+Run the project:
+$ open index.html
 
 
 
