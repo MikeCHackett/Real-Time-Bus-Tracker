@@ -2,16 +2,11 @@
 ## Exercise on asynchronus code
 
 
-**What I Learned**
-
--How to apply API in code to get real time results.
-
--Fetch JSON data using asychronus JavaScript.
-
 
 ## Description
 -Real time map that tracks bus routes in boston.
 -Marks differnet bus routes with icons.
+-Apply API code.
 -JSON data is fetched with Asynchronous JavaScript using promises and is updated every 15 seconds.
 
 
