@@ -1,25 +1,34 @@
-body{
-    background-color: lightskyblue;
-    font-family: "Goudy Bookletter 1911", sans-serif;
-}
-.header{
-    color: black;
-}
-.gm-style-iw {
-    width: 200px !important;
-    top: 15px !important;
-    left: 0px !important;
-    background-color: #fff;
-    box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
-    border: 1px solid rgba(72, 181, 233, 0.6);
-    border-radius: 2px 2px 10px 10px;
-    color:dimgrey
-}
-
-.container{
-    display:grid;
-    width: 100%;
+body {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  #map {
+    border-style: solid;
+    position: absolute;
+    top: 100px;
+    bottom: 60px;
+    left:175px;
+    width: 75%;
+  }
+  
+  .map-style{ 
     text-align: center;
-    justify-content: center;
-
-}
+    padding: 5px 10px 5px 10px;
+  }
+  
+  .map-overlay {
+    position: relative;
+    left: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+  }
+  
+  #menu {
+    position: absolute;
+    background: lightskyblue;
+    padding: 10px;
+    font-family: 'Goudy Bookletter 1911', sans-serif;
+  }
+  
