@@ -1,28 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-
+!DOCTYPE html>
+<html>
 <head>
-
-    <title>Bus Tracker</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-
-    <script src="https://maps.google.com/maps/api/js?key=AIzaSyARxs_0QWBQzZ-7tnFIkcz6Tzh5Fr1I0xg"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+<link href="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.css" rel="stylesheet">
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.4.1/mapbox-gl.js"></script>
+<link href="./styles.css" rel="stylesheet" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="header">
-            <h2>Real Time Bus Tracker</h2>
-            click to view more info on that bus
-        </div>
-        <div id="map" style="width:1024px; height:768px;"></div>
+    <div id="map"></div>  
+    <div class="map-overlay top">
+        <button style="font-size: 2em" onclick="move()">
+            Bus Routes between MIT and Harvard
+        </button>
+        <div class= "map-style">
+            <button id="light-v10" style="font-size: 1.4em" onclick="check(this.id)">
+                3D map
+            </button>
+            <button id="streets-v11" style="font-size: 1.4em" onclick="check(this.id)">
+                street
+            </button>
+            <button id="dark-v10" style="font-size: 1.4em" onclick="check(this.id)">
+                dark
+            </button>
+            <button id="outdoors-v11" style="font-size: 1.4em" onclick="check(this.id)">
+                outdoor
+            </button>
+            <button id="satellite-v9" style="font-size: 1.4em" onclick="check(this.id)">
+                satellite
+            </button>
+       </div>
     </div>
-
-
+    <script src="./mapanimation.js"></script>
 </body>
-<script src="mapanimation.js"></script>
 
 </html>
